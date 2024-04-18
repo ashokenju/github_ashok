@@ -1,9 +1,12 @@
 #! /bin/bash
 
-echo "suresh:How are you Ramesh?"
+person1=suresh
+person2=ramesh
 
-echo  "Ramesh:fine suresh how are you"
+echo "$person1:How are you Ramesh?"
 
-echo "suresh:fine ramesh,How is your work"
+echo  "$person2:fine suresh how are you"
 
-echo "Ramesh:Not bad i am planning to learn devops"
+echo "$person1:fine ramesh,How is your work"
+
+echo "$person2:Not bad i am planning to learn devops"
