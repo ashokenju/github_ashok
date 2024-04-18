@@ -1,6 +1,10 @@
 #! /bin/bash
 
-if [ $id -u -ne 0 ];
+p1=id -u
+
+
+
+if [ $p1 -ne 0 ];
 
 then 
 
