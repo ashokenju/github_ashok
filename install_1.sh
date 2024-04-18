@@ -8,6 +8,6 @@ echo "Not have permission to install"
 
 else 
 
-yum install sql-server -y
+yum install mysql-server -y
 
 fi
