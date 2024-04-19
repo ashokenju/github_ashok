@@ -2,7 +2,9 @@
 
 p1=$(id -u)
 
-if [ $p1 -ne 0 ]  then
+if [ $p1 -ne 0 ]  
+
+then
 
 echo "you are not root user"
 
