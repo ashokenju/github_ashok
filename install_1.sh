@@ -2,18 +2,30 @@
 
 p1=$(id -u)
 
-if [ $p1 -ne 0 ];
+if [ $p1 -ne 0 ]  then
 
-then 
+echo "you are not root user"
 
-echo "Not have permission to install"
-
-exit 1
+exit 1  #exit if a not root user
 
 else 
 
-yum install mysql-server -y
-
-
+echo "You are sper user"
 
 fi
+
+dnf install mysql-server  -y
+
+if [ $? -ne  0 ]  then
+ 
+ echo "mysql-server installation Not Success"
+
+exit 1
+ else
+ 
+ echo "mysql-server installed successfully"
+
+ 
+
+ fi
+
