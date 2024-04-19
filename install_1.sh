@@ -1,6 +1,6 @@
 #! /bin/bash
 
-p1=id -u
+p1=$(id -u)
 
 
 
