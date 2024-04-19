@@ -18,7 +18,7 @@ fi
 
 dnf install mysql-server  -y
 
-if [ $? -ne  0 ]  then
+if [ $? -ne  0 ]; then
  
  echo "mysql-server installation Not Success"
 
