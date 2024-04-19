@@ -6,11 +6,11 @@ if [ $p1 -ne 0 ]  then
 
 echo "you are not root user"
 
-exit 1  #exit if a not root user
+exit 1  #exit if a not root user.
 
 else 
 
-echo "You are sper user"
+echo "You are super user"
 
 fi
 
