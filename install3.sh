@@ -1,7 +1,7 @@
 #! /bin/bash
 
  p1=$(id -u)
- script_name=$(echo $? |  cut -d '.' -f1)
+ script_name=$(echo $0 |  cut -d '.' -f1)
  date_format=$(date +"%d%m%Y_%H%M")
  log_path=/tmp/$script_name_$date_format.log
 
