@@ -3,7 +3,7 @@
  p1=$(id -u)
  script_name=$(echo $0 |  cut -d '.' -f1)
  date_format=$(date +"%d%m%Y_%H%M")
- log_path=/tmp/$script_name_$date_format.log
+ log_path=/tmp/$script_name-$date_format.log
 
  #path=$(script_name=$(echo $? |  cut -d '.' -f1)_date_format=date_time=$(date +"%d%m%Y_%H%M")_)
  #function-validate
