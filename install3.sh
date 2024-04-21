@@ -28,6 +28,8 @@
 
  validate $? "mysql-servr installation"
 
+systemctl start mysql-server
 
+validate $? "mysql-server starting"
 
 
