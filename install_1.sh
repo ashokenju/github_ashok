@@ -2,7 +2,7 @@
 
 p1=$(id -u)
 
-if [ $p1 -ne 0 ]  
+if [ $p1 -ne 0 ]
 
 then
 
